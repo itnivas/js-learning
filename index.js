@@ -116,3 +116,31 @@ import './style.css';
 // }, {});
 
 // console.log(keyValueArr);
+
+// Counting the occurrences / frequency of array elements
+// =====================================================
+
+// const arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+
+// const counts = {};
+
+// for (let num of arr) {
+//   counts[num] = counts[num] ? counts[num] + 1 : 1;
+// }
+// console.log(counts);
+
+//  Finding the max of an object
+// =============================
+
+// const values = Object.values(counts);
+// console.log(Math.max(...values));
+
+// Finding the max value of an attribute in an array of objects
+// ============================================================
+
+// var objects = [{ x: 3 }, { x: 1 }, { x: 2 }];
+// const max = objects.reduce((prev, current) => {
+//   return prev.x > current.x ? prev : current;
+// });
+
+// console.log(max);
