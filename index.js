@@ -144,3 +144,13 @@ import './style.css';
 // });
 
 // console.log(max);
+
+const topping = [
+  { id: '5001', type: 'None', name: 'Nothing' },
+  { id: '5002', type: 'Glazed', name: 'donut' },
+  { id: '5005', type: 'Sugar', name: 'Cake' },
+  { id: '5007', type: 'Powdered Sugar', name: 'batters' },
+  { id: '5006', type: 'Chocolate with Sprinkles', name: 'Blueberry' },
+  { id: '5003', type: 'Chocolate', name: 'Regular' },
+  { id: '5004', type: 'Maple', name: 'Food' },
+];
